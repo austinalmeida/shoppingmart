@@ -1,0 +1,1281 @@
+2015-05-21 7:08:51 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-21 9:10:51 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:51 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:10:51 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:51 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:10:51 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:51 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:10:51 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:51 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:10:54 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:54 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:10:54 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:54 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:10:54 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:54 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:10:54 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:10:54 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:11:52 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:52 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:11:52 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:52 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:11:52 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:52 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:11:52 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:52 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:11:53 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:53 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:11:53 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:53 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:11:53 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:53 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:11:53 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:11:53 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:14:46 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:14:46 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 9:14:46 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) WHERE seller_status IN  (1) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:14:46 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 9:14:47 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:14:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:14:47 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+						(SELECT COUNT(*) FROM product p
+						LEFT JOIN ms_product mp USING (product_id)
+						LEFT JOIN ms_seller USING (seller_id)
+						WHERE seller_id = ms.seller_id) as total_products,
+					
+						(SELECT COALESCE(SUM(amount),0)
+							- (SELECT COALESCE(ABS(SUM(amount)),0)
+								FROM `ms_balance`
+								WHERE seller_id = ms.seller_id
+								AND balance_type = 2) as total
+						FROM `ms_balance`
+						WHERE seller_id = ms.seller_id
+						AND balance_type = 1) as total_earnings,
+					
+						(SELECT COALESCE(
+							(SELECT balance FROM ms_balance
+								WHERE seller_id = ms.seller_id  
+								ORDER BY balance_id DESC
+								LIMIT 1
+							),
+							0
+						)) as current_balance,
+					 CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+					c.email as 'c.email',
+					ms.seller_id as 'seller_id',
+					ms.nickname as 'ms.nickname',
+					ms.company as 'ms.company',
+					ms.website as 'ms.website',
+					ms.seller_status as 'ms.seller_status',
+					ms.seller_approved as 'ms.seller_approved',
+					ms.date_created as 'ms.date_created',
+					ms.avatar as 'ms.avatar',
+					ms.banner as 'banner',
+					ms.country_id as 'ms.country_id',
+					ms.zone_id as 'ms.zone_id',
+					ms.description as 'ms.description',
+					ms.paypal as 'ms.paypal',
+					IFNULL(SUM(mp.number_sold), 0) as 'total_sales'
+				FROM `customer` c
+				INNER JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				LEFT JOIN `ms_product` mp
+					ON (c.customer_id = mp.seller_id)
+				WHERE 1 = 1  GROUP BY ms.seller_id HAVING 1 = 1  ORDER BY `c.name` ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:14:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 412
+2015-05-21 9:14:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 414
+2015-05-21 9:14:47 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller.php on line 44
+2015-05-21 9:15:04 - PHP Notice:  Error: Table 'shopping_mart.ms_seller_group' doesn't exist<br />Error No: 1146<br />SELECT 
+					SQL_CALC_FOUND_ROWS
+					*
+					FROM ms_seller_group msg 
+					LEFT JOIN ms_seller_group_description msgd 
+						ON (msg.seller_group_id = msgd.seller_group_id) 
+					WHERE msgd.language_id = '1' ORDER BY msg.seller_group_id ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:04 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 35
+2015-05-21 9:15:04 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 37
+2015-05-21 9:15:04 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller-group.php on line 35
+2015-05-21 9:15:17 - PHP Notice:  Error: Table 'shopping_mart.ms_attribute' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+					*,
+					ma.attribute_type as 'ma.attribute_type',
+					ma.sort_order as 'ma.sort_order',
+					ma.enabled as 'ma.enabled',
+					mad.name as 'mad.name'
+				FROM ms_attribute ma
+				LEFT JOIN ms_attribute_description mad
+					ON (ma.attribute_id = mad.attribute_id)
+				WHERE 1 = 1 AND language_id =  1 ORDER BY name ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:17 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msattribute.php on line 236
+2015-05-21 9:15:17 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msattribute.php on line 238
+2015-05-21 9:15:17 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\attribute.php on line 31
+2015-05-21 9:15:20 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:20 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:15:20 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:20 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:15:20 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:20 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:15:20 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:20 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:15:21 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:21 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:15:21 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:21 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:15:21 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:21 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:15:21 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:21 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:15:30 - PHP Notice:  Undefined index: token in E:\Project\ShoppingMart\code\vqmod\vqcache\vq2-admin_view_template_common_header.tpl on line 99
+2015-05-21 9:15:36 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:36 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:15:36 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:36 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:15:36 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:36 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:15:36 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:36 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:15:36 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:36 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:15:36 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:36 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:15:41 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:15:41 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:15:41 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:15:50 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:15:50 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:15:50 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:15:50 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:15:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:16:11 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:16:11 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:16:11 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:16:11 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:16:11 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:16:11 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:16:12 - PHP Notice:  Error: Table 'shopping_mart.ms_seller_group' doesn't exist<br />Error No: 1146<br />SELECT 
+					SQL_CALC_FOUND_ROWS
+					*
+					FROM ms_seller_group msg 
+					LEFT JOIN ms_seller_group_description msgd 
+						ON (msg.seller_group_id = msgd.seller_group_id) 
+					WHERE msgd.language_id = '1' ORDER BY msg.seller_group_id ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:16:12 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 35
+2015-05-21 9:16:12 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 37
+2015-05-21 9:16:12 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller-group.php on line 35
+2015-05-21 9:17:12 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:12 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:12 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:12 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:12 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:12 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:40 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:40 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:40 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:40 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:40 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:40 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:40 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:40 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:41 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:41 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:41 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:41 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:41 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:17:44 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:17:44 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:01 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:02 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			ALTER TABLE `ms_seller` ADD (
+				`banner` VARCHAR(255) DEFAULT NULL) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 64
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 308
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 319
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:18:17 - PHP Warning:  in_array() expects parameter 2 to be array, null given in E:\Project\ShoppingMart\code\admin\view\template\multiseller\settings.tpl on line 587
+2015-05-21 9:25:04 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:25:04 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:25:04 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:25:04 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:25:04 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:25:04 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:25:05 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:25:05 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:25:05 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:25:05 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:25:05 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:25:05 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:29:42 - PHP Notice:  Error: Table 'shopping_mart.ms_seller_group' doesn't exist<br />Error No: 1146<br />SELECT 
+					SQL_CALC_FOUND_ROWS
+					*
+					FROM ms_seller_group msg 
+					LEFT JOIN ms_seller_group_description msgd 
+						ON (msg.seller_group_id = msgd.seller_group_id) 
+					WHERE msgd.language_id = '1' ORDER BY msg.seller_group_id ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:29:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 35
+2015-05-21 9:29:42 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 37
+2015-05-21 9:29:42 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller-group.php on line 35
+2015-05-21 9:29:47 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:29:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 9:29:47 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) WHERE seller_status IN  (1) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:29:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 9:29:47 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT * FROM ms_seller WHERE seller_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:29:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 32
+2015-05-21 9:29:47 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+						(SELECT COUNT(*) FROM product p
+						LEFT JOIN ms_product mp USING (product_id)
+						LEFT JOIN ms_seller USING (seller_id)
+						WHERE seller_id = ms.seller_id) as total_products,
+					
+						(SELECT COALESCE(SUM(amount),0)
+							- (SELECT COALESCE(ABS(SUM(amount)),0)
+								FROM `ms_balance`
+								WHERE seller_id = ms.seller_id
+								AND balance_type = 2) as total
+						FROM `ms_balance`
+						WHERE seller_id = ms.seller_id
+						AND balance_type = 1) as total_earnings,
+					
+						(SELECT COALESCE(
+							(SELECT balance FROM ms_balance
+								WHERE seller_id = ms.seller_id  
+								ORDER BY balance_id DESC
+								LIMIT 1
+							),
+							0
+						)) as current_balance,
+					 CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+					c.email as 'c.email',
+					ms.seller_id as 'seller_id',
+					ms.nickname as 'ms.nickname',
+					ms.company as 'ms.company',
+					ms.website as 'ms.website',
+					ms.seller_status as 'ms.seller_status',
+					ms.seller_approved as 'ms.seller_approved',
+					ms.date_created as 'ms.date_created',
+					ms.avatar as 'ms.avatar',
+					ms.banner as 'banner',
+					ms.country_id as 'ms.country_id',
+					ms.zone_id as 'ms.zone_id',
+					ms.description as 'ms.description',
+					ms.paypal as 'ms.paypal',
+					IFNULL(SUM(mp.number_sold), 0) as 'total_sales'
+				FROM `customer` c
+				INNER JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				LEFT JOIN `ms_product` mp
+					ON (c.customer_id = mp.seller_id)
+				WHERE 1 = 1  GROUP BY ms.seller_id HAVING 1 = 1  ORDER BY `c.name` ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:29:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 412
+2015-05-21 9:29:47 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 414
+2015-05-21 9:29:47 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller.php on line 44
+2015-05-21 9:30:00 - PHP Notice:  Error: Table 'shopping_mart.ms_attribute' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+					*,
+					ma.attribute_type as 'ma.attribute_type',
+					ma.sort_order as 'ma.sort_order',
+					ma.enabled as 'ma.enabled',
+					mad.name as 'mad.name'
+				FROM ms_attribute ma
+				LEFT JOIN ms_attribute_description mad
+					ON (ma.attribute_id = mad.attribute_id)
+				WHERE 1 = 1 AND language_id =  1 ORDER BY name ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:30:00 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msattribute.php on line 236
+2015-05-21 9:30:00 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msattribute.php on line 238
+2015-05-21 9:30:00 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\attribute.php on line 31
+2015-05-21 9:32:43 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+					c.email as 'c.email',
+					ms.seller_id as 'seller_id',
+					ms.nickname as 'ms.nickname',
+					ms.company as 'ms.company',
+					ms.website as 'ms.website',
+					ms.seller_status as 'ms.seller_status',
+					ms.seller_approved as 'ms.seller_approved',
+					ms.date_created as 'ms.date_created',
+					ms.avatar as 'ms.avatar',
+					ms.banner as 'banner',
+					ms.country_id as 'ms.country_id',
+					ms.zone_id as 'ms.zone_id',
+					ms.description as 'ms.description',
+					ms.paypal as 'ms.paypal',
+					IFNULL(SUM(mp.number_sold), 0) as 'total_sales'
+				FROM `customer` c
+				INNER JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				LEFT JOIN `ms_product` mp
+					ON (c.customer_id = mp.seller_id)
+				WHERE 1 = 1  AND seller_status IN  (1,2) GROUP BY ms.seller_id HAVING 1 = 1  ORDER BY ms.nickname ASC in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:32:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 412
+2015-05-21 9:32:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 414
+2015-05-21 9:32:43 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS p.product_id as 'product_id',
+					p.image as 'p.image',
+					p.price as 'p.price',
+					pd.name as 'pd.name',
+					ms.seller_id as 'seller_id',
+					ms.nickname as 'ms.nickname',
+					mp.product_status as 'mp.product_status',
+					mp.product_approved as 'mp.product_approved',
+					mp.number_sold as 'mp.number_sold',
+					mp.list_until as 'mp.list_until',
+					p.date_added as 'p.date_created',
+					p.date_modified  as 'p.date_modified',
+					pd.description as 'pd.description'
+				FROM product p
+				INNER JOIN product_description pd
+					USING(product_id)
+				LEFT JOIN ms_product mp
+					USING(product_id)
+				LEFT JOIN ms_seller ms
+					USING (seller_id)
+				WHERE 1 = 1 GROUP BY p.product_id HAVING 1 = 1  ORDER BY pd.name ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:32:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 915
+2015-05-21 9:32:43 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 917
+2015-05-21 9:32:43 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\product.php on line 44
+2015-05-21 9:33:01 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+					*,
+					mb.description as 'mb.description',
+					mb.date_created as 'mb.date_created'
+				FROM ms_balance mb
+				INNER JOIN ms_seller ms
+					ON (mb.seller_id = ms.seller_id)
+				WHERE 1 = 1 ORDER BY mb.date_created DESC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:33:01 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 61
+2015-05-21 9:33:01 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 63
+2015-05-21 9:33:01 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\transaction.php on line 32
+2015-05-21 9:35:34 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:35:34 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 9:35:34 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) WHERE seller_status IN  (1) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:35:34 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 9:35:34 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+						(SELECT COUNT(*) FROM product p
+						LEFT JOIN ms_product mp USING (product_id)
+						LEFT JOIN ms_seller USING (seller_id)
+						WHERE seller_id = ms.seller_id) as total_products,
+					
+						(SELECT COALESCE(SUM(amount),0)
+							- (SELECT COALESCE(ABS(SUM(amount)),0)
+								FROM `ms_balance`
+								WHERE seller_id = ms.seller_id
+								AND balance_type = 2) as total
+						FROM `ms_balance`
+						WHERE seller_id = ms.seller_id
+						AND balance_type = 1) as total_earnings,
+					
+						(SELECT COALESCE(
+							(SELECT balance FROM ms_balance
+								WHERE seller_id = ms.seller_id  
+								ORDER BY balance_id DESC
+								LIMIT 1
+							),
+							0
+						)) as current_balance,
+					 CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+					c.email as 'c.email',
+					ms.seller_id as 'seller_id',
+					ms.nickname as 'ms.nickname',
+					ms.company as 'ms.company',
+					ms.website as 'ms.website',
+					ms.seller_status as 'ms.seller_status',
+					ms.seller_approved as 'ms.seller_approved',
+					ms.date_created as 'ms.date_created',
+					ms.avatar as 'ms.avatar',
+					ms.banner as 'banner',
+					ms.country_id as 'ms.country_id',
+					ms.zone_id as 'ms.zone_id',
+					ms.description as 'ms.description',
+					ms.paypal as 'ms.paypal',
+					IFNULL(SUM(mp.number_sold), 0) as 'total_sales'
+				FROM `customer` c
+				INNER JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				LEFT JOIN `ms_product` mp
+					ON (c.customer_id = mp.seller_id)
+				WHERE 1 = 1  GROUP BY ms.seller_id HAVING 1 = 1  ORDER BY `c.name` ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:35:34 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 412
+2015-05-21 9:35:34 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 414
+2015-05-21 9:35:34 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller.php on line 44
+2015-05-21 9:35:38 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT  CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+						c.email as 'c.email',
+						c.customer_id as 'c.customer_id',
+						ms.seller_id as 'seller_id'
+				FROM `customer` c
+				LEFT JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				WHERE ms.seller_id IS NULL in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:35:38 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 431
+2015-05-21 9:35:38 - PHP Notice:  Error: Table 'shopping_mart.ms_seller_group' doesn't exist<br />Error No: 1146<br />SELECT 
+					SQL_CALC_FOUND_ROWS
+					*
+					FROM ms_seller_group msg 
+					LEFT JOIN ms_seller_group_description msgd 
+						ON (msg.seller_group_id = msgd.seller_group_id) 
+					WHERE msgd.language_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:35:38 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 35
+2015-05-21 9:35:38 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 37
+2015-05-21 9:35:38 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\view\template\multiseller\seller-form.tpl on line 121
+2015-05-21 9:39:49 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:39:49 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:39:49 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:39:49 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:39:49 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:39:49 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:39:50 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:39:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:39:50 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:39:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:39:50 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:39:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:56:35 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:56:35 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:56:35 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM product p
+			LEFT JOIN ms_product mp
+				USING (product_id)
+			LEFT JOIN ms_seller ms
+				USING (seller_id)
+			WHERE 1 = 1  AND status =  1 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:56:35 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msproduct.php on line 806
+2015-05-21 9:56:35 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />
+			SELECT COUNT(*) as total
+			FROM ms_seller ms
+			WHERE 1 = 1  AND seller_status IN  (1) in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:56:35 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 286
+2015-05-21 9:56:35 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) as 'total'
+				FROM `ms_seller`
+				WHERE seller_id = 0 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:56:35 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 57
+2015-05-21 9:57:23 - PHP Notice:  Error: Table 'shopping_mart.ms_seller' doesn't exist<br />Error No: 1146<br />SELECT  CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+						c.email as 'c.email',
+						c.customer_id as 'c.customer_id',
+						ms.seller_id as 'seller_id'
+				FROM `customer` c
+				LEFT JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				WHERE ms.seller_id IS NULL in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:57:23 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 431
+2015-05-21 9:57:23 - PHP Notice:  Error: Table 'shopping_mart.ms_seller_group' doesn't exist<br />Error No: 1146<br />SELECT 
+					SQL_CALC_FOUND_ROWS
+					*
+					FROM ms_seller_group msg 
+					LEFT JOIN ms_seller_group_description msgd 
+						ON (msg.seller_group_id = msgd.seller_group_id) 
+					WHERE msgd.language_id = '1' in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 9:57:23 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 35
+2015-05-21 9:57:23 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\mssellergroup.php on line 37
+2015-05-21 9:57:23 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\view\template\multiseller\seller-form.tpl on line 121
+2015-05-21 10:09:50 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 10:09:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 10:09:50 - PHP Notice:  Error: Table 'shopping_mart.ms_balance' doesn't exist<br />Error No: 1146<br />SELECT COALESCE(
+					(SELECT SUM(balance) FROM ms_balance
+					 WHERE balance_id IN (
+						SELECT MAX(balance_id) FROM ms_balance
+						LEFT JOIN ms_seller
+							USING(seller_id) WHERE seller_status IN  (1) GROUP BY seller_id
+					)),
+					0
+				) as total in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 10:09:50 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msbalance.php on line 108
+2015-05-21 10:09:51 - PHP Notice:  Error: Table 'shopping_mart.ms_product' doesn't exist<br />Error No: 1146<br />SELECT
+					SQL_CALC_FOUND_ROWS
+						(SELECT COUNT(*) FROM product p
+						LEFT JOIN ms_product mp USING (product_id)
+						LEFT JOIN ms_seller USING (seller_id)
+						WHERE seller_id = ms.seller_id) as total_products,
+					
+						(SELECT COALESCE(SUM(amount),0)
+							- (SELECT COALESCE(ABS(SUM(amount)),0)
+								FROM `ms_balance`
+								WHERE seller_id = ms.seller_id
+								AND balance_type = 2) as total
+						FROM `ms_balance`
+						WHERE seller_id = ms.seller_id
+						AND balance_type = 1) as total_earnings,
+					
+						(SELECT COALESCE(
+							(SELECT balance FROM ms_balance
+								WHERE seller_id = ms.seller_id  
+								ORDER BY balance_id DESC
+								LIMIT 1
+							),
+							0
+						)) as current_balance,
+					 CONCAT(c.firstname, ' ', c.lastname) as 'c.name',
+					c.email as 'c.email',
+					ms.seller_id as 'seller_id',
+					ms.nickname as 'ms.nickname',
+					ms.company as 'ms.company',
+					ms.website as 'ms.website',
+					ms.seller_status as 'ms.seller_status',
+					ms.seller_approved as 'ms.seller_approved',
+					ms.date_created as 'ms.date_created',
+					ms.avatar as 'ms.avatar',
+					ms.banner as 'banner',
+					ms.country_id as 'ms.country_id',
+					ms.zone_id as 'ms.zone_id',
+					ms.description as 'ms.description',
+					ms.paypal as 'ms.paypal',
+					IFNULL(SUM(mp.number_sold), 0) as 'total_sales'
+				FROM `customer` c
+				INNER JOIN `ms_seller` ms
+					ON (c.customer_id = ms.seller_id)
+				LEFT JOIN `ms_product` mp
+					ON (c.customer_id = mp.seller_id)
+				WHERE 1 = 1  GROUP BY ms.seller_id HAVING 1 = 1  ORDER BY `c.name` ASC LIMIT 0, 50 in E:\Project\ShoppingMart\code\system\library\db\mysqli.php on line 41
+2015-05-21 10:09:51 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 412
+2015-05-21 10:09:51 - PHP Notice:  Trying to get property of non-object in E:\Project\ShoppingMart\code\system\library\msseller.php on line 414
+2015-05-21 10:09:51 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\admin\controller\multiseller\seller.php on line 44
+2015-05-21 10:18:25 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:26:33 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-21 10:34:58 - PHP Notice:  Undefined offset: 0 in E:\Project\ShoppingMart\code\system\library\response.php on line 70
+2015-05-22 5:04:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:21:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:21:35 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:25:30 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:25:47 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:25:55 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:29:38 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:30:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:30:29 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:56:05 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:57:22 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:57:26 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 50
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 54
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 58
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 66
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:57:54 - PHP Notice:  Undefined index: seller in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 70
+2015-05-22 5:59:14 - PHP Notice:  Array to string conversion in E:\Project\ShoppingMart\code\catalog\controller\account\register-seller.php on line 48
+2015-05-22 6:13:55 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 6:15:12 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 6:16:57 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 6:25:31 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 6:28:48 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\system\library\mail.php on line 22
+2015-05-22 6:28:49 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 6:28:49 - PHP Warning:  Invalid argument supplied for foreach() in E:\Project\ShoppingMart\code\system\library\mail.php on line 22
+2015-05-22 6:28:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\Project\ShoppingMart\code\system\library\mail.php on line 162
+2015-05-22 6:41:44 - PHP Notice:  Undefined index: iColumns in E:\Project\ShoppingMart\code\system\library\mshelper.php on line 32
+2015-05-22 6:41:44 - PHP Notice:  Undefined index: iDisplayStart in E:\Project\ShoppingMart\code\catalog\controller\seller\account-order.php on line 27
+2015-05-22 6:41:44 - PHP Notice:  Undefined index: iDisplayLength in E:\Project\ShoppingMart\code\catalog\controller\seller\account-order.php on line 28
