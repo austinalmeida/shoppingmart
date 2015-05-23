@@ -43,10 +43,10 @@ class ControllerAccountRegisterSeller extends Controller {
 		$this->response->setOutput($this->load->view($template, array_merge($this->data, $children)));
 	}
 
-	public function jxsavesellerinfo() {		
-		$data = $this->request->post;		
+	public function jxsavesellerinfo() {
+		$data = $this->request->post;
 		$json = array();
-		//var_dump($json); die;
+
 		if ((utf8_strlen($data['seller']['firstname']) < 1) || (utf8_strlen($data['seller']['firstname']) > 32)) {
       		$json['errors']['seller[firstname]'] = $this->language->get('error_firstname');
     	}

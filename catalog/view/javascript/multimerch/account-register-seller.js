@@ -1,6 +1,5 @@
-$(function() {	
+$(function() {
     $("#ms-submit-button").click(function() {
-		
         var button = $(this);
 
         $.ajax({
