@@ -71,7 +71,7 @@
 			<label class="col-sm-2 control-label"><?php echo $ms_account_sellerinfo_country; ?></label>
 			<div class="col-sm-10">
 				<select name="seller[country]" class="form-control">
-					<option value="" selected="selected"><?php echo $ms_account_sellerinfo_country_dont_display; ?></option>
+					<option value="" selected="selected"><?php echo $ms_account_sellerinfo_country_display; ?></option>
 					<?php foreach ($countries as $country) { ?>
 					<option value="<?php echo $country['country_id']; ?>" <?php if ($seller['ms.country_id'] == $country['country_id'] || $country_id == $country['country_id']) { ?>selected="selected"<?php } ?>><?php echo $country['name']; ?></option>
 					<?php } ?>
@@ -87,7 +87,23 @@
 				<p class="ms-note"><?php echo $ms_account_sellerinfo_zone_note; ?></p>
 			</div>
 		</div>
-
+		
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><?php echo $ms_account_sellerinfo_city; ?></label>
+			<div class="col-sm-10">
+				<select name="seller[city]" class="form-control"></select>
+				<p class="ms-note"><?php echo $ms_account_sellerinfo_city_note; ?></p>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><?php echo $ms_account_sellerinfo_address; ?></label>
+			<div class="col-sm-10">
+				<textarea name="seller[address]" id="seller_textarea" class="form-control <?php echo $this->config->get('msconf_enable_rte') ? 'ckeditor' : ''; ?>"><?php echo $this->config->get('msconf_enable_rte') ? htmlspecialchars_decode($seller['ms.address']) : strip_tags(htmlspecialchars_decode($seller['ms.address'])); ?></textarea>
+				<p class="ms-note"><?php echo $ms_account_sellerinfo_address_note; ?></p>
+			</div>
+		</div>
+		
 		<div class="form-group">
 			<label class="col-sm-2 control-label"><?php echo $ms_account_sellerinfo_paypal; ?></label>
 			<div class="col-sm-10">
@@ -195,11 +211,14 @@
 		token : '<?php echo md5($salt . $timestamp); ?>',
 		session_id: '<?php echo session_id(); ?>',
 		zone_id: '<?php echo $seller['ms.zone_id'] ?>',
+		city_id: '<?php echo $seller['ms.city_id'] ?>',
 		uploadError: '<?php echo htmlspecialchars($ms_error_file_upload_error, ENT_QUOTES, "UTF-8"); ?>',
 		formError: '<?php echo htmlspecialchars($ms_error_form_submit_error, ENT_QUOTES, "UTF-8"); ?>',
 		config_enable_rte: '<?php echo $this->config->get('msconf_enable_rte'); ?>',
 		zoneSelectError: '<?php echo htmlspecialchars($ms_account_sellerinfo_zone_select, ENT_QUOTES, "UTF-8"); ?>',
-		zoneNotSelectedError: '<?php echo htmlspecialchars($ms_account_sellerinfo_zone_not_selected, ENT_QUOTES, "UTF-8"); ?>'
+		zoneNotSelectedError: '<?php echo htmlspecialchars($ms_account_sellerinfo_zone_not_selected, ENT_QUOTES, "UTF-8"); ?>',
+		citySelectError: '<?php echo htmlspecialchars($ms_account_sellerinfo_city_select, ENT_QUOTES, "UTF-8"); ?>',
+		cityNotSelectedError: '<?php echo htmlspecialchars($ms_account_sellerinfo_city_not_selected, ENT_QUOTES, "UTF-8"); ?>'
 	};
 </script>
 
