@@ -8,7 +8,7 @@ class ControllerCommonCurrency extends Controller {
 		$data['action'] = $this->url->link('common/currency/currency', '', $this->request->server['HTTPS']);
 
 		$data['code'] = $this->currency->getCode();
-
+	
 		$this->load->model('localisation/currency');
 
 		$data['currencies'] = array();

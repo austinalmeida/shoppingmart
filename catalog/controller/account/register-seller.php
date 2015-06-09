@@ -123,6 +123,7 @@ class ControllerAccountRegisterSeller extends Controller {
 			$data['seller']['postcode'] = '';
 			$data['seller']['country_id'] = 0;
 			$data['seller']['zone_id'] = 0;
+			$data['seller']['city_id'] = 0;
 			$data['seller']['customer_group_id'] = $this->config->get('config_customer_group_id');
 			$this->model_account_customer->addCustomer($data['seller']);
 

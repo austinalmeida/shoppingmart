@@ -96,7 +96,11 @@ class ModelCatalogProduct extends Model {
 				$sql .= " AND pf.filter_id IN (" . implode(',', $implode) . ")";
 			}
 		}
-
+		
+		if (isset($data['p_min']) && ($data['p_max'])) {
+			$sql .= " AND p.price between " . $data['p_min'] . " AND " . $data['p_max'];
+		}
+		
 		if (!empty($data['filter_name']) || !empty($data['filter_tag'])) {
 			$sql .= " AND (";
 
@@ -171,7 +175,7 @@ class ModelCatalogProduct extends Model {
 			$sql .= " DESC, LCASE(pd.name) DESC";
 		} else {
 			$sql .= " ASC, LCASE(pd.name) ASC";
-		}
+		}	
 
 		if (isset($data['start']) || isset($data['limit'])) {
 			if ($data['start'] < 0) {

@@ -136,6 +136,10 @@ class ControllerProductCategory extends Controller {
 			if (isset($this->request->get['filter'])) {
 				$url .= '&filter=' . $this->request->get['filter'];
 			}
+			
+			if (isset($this->request->get['range'])) {
+				$url .= '&range=' . $this->request->get['range'];
+			}
 
 			if (isset($this->request->get['sort'])) {
 				$url .= '&sort=' . $this->request->get['sort'];
@@ -148,7 +152,13 @@ class ControllerProductCategory extends Controller {
 			if (isset($this->request->get['limit'])) {
 				$url .= '&limit=' . $this->request->get['limit'];
 			}
-
+			
+			if (isset($this->request->get['range'])) {
+				$range = $this->request->get['range'];
+			} else {
+				$range = NULL;
+			}
+			
 			$data['categories'] = array();
 
 			$results = $this->model_catalog_category->getCategories($category_id);
@@ -164,13 +174,32 @@ class ControllerProductCategory extends Controller {
 					'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
 				);
 			}
-
+			
+			$data['range'] = array();
+			
+			if (isset($this->request->get['range'])) {
+				$p_range = explode(",", $this->request->get['range']);
+				$p_min = $p_range[0]; $p_max = $p_range[1];
+			} else {
+				$p_min = NULL; $p_max = NULL;
+			}
+			
+			$data['range'][] = array(
+					'p_min' => $p_min,
+					'p_min' => $p_max,
+					'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url)
+			);
+			
 			$data['products'] = array();
-
+			
+			
 			$filter_data = array(
 				'filter_category_id' => $category_id,
 				'filter_filter'      => $filter,
 				'sort'               => $sort,
+				'p_min'				 => $p_min,
+				'p_max'				 => $p_max,
+				'range'				 => $range,
 				'order'              => $order,
 				'start'              => ($page - 1) * $limit,
 				'limit'              => $limit
@@ -302,6 +331,10 @@ class ControllerProductCategory extends Controller {
 			if (isset($this->request->get['sort'])) {
 				$url .= '&sort=' . $this->request->get['sort'];
 			}
+			
+			if (isset($this->request->get['range'])) {
+				$url .= '&range=' . $this->request->get['range'];
+			}
 
 			if (isset($this->request->get['order'])) {
 				$url .= '&order=' . $this->request->get['order'];
@@ -330,6 +363,10 @@ class ControllerProductCategory extends Controller {
 			if (isset($this->request->get['sort'])) {
 				$url .= '&sort=' . $this->request->get['sort'];
 			}
+			
+			if (isset($this->request->get['range'])) {
+				$url .= '&range=' . $this->request->get['range'];
+			}
 
 			if (isset($this->request->get['order'])) {
 				$url .= '&order=' . $this->request->get['order'];
@@ -350,6 +387,7 @@ class ControllerProductCategory extends Controller {
 			$data['results'] = sprintf($this->language->get('text_pagination'), ($product_total) ? (($page - 1) * $limit) + 1 : 0, ((($page - 1) * $limit) > ($product_total - $limit)) ? $product_total : ((($page - 1) * $limit) + $limit), $product_total, ceil($product_total / $limit));
 
 			$data['sort'] = $sort;
+			$data['range'] = $range;
 			$data['order'] = $order;
 			$data['limit'] = $limit;
 
@@ -384,6 +422,10 @@ class ControllerProductCategory extends Controller {
 
 			if (isset($this->request->get['order'])) {
 				$url .= '&order=' . $this->request->get['order'];
+			}
+			
+			if (isset($this->request->get['range'])) {
+				$url .= '&range=' . $this->request->get['range'];
 			}
 
 			if (isset($this->request->get['page'])) {

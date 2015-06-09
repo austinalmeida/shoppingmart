@@ -72,6 +72,7 @@ class ControllerSellerCatalogSeller extends ControllerSellerCatalog {
 				'description' => utf8_substr(strip_tags(html_entity_decode($result['ms.description'], ENT_QUOTES, 'UTF-8')), 0, 200) . '..',
 				//'rating'      => $result['rating'],
 				'country' => ($country ? $country['name'] : NULL),
+				'address' => utf8_substr(strip_tags(html_entity_decode($result['ms.address'], ENT_QUOTES, 'UTF-8')), 0, 200) . '..',
 				'company' => ($result['ms.company'] ? $result['ms.company'] : NULL),
 				'website' => ($result['ms.website'] ? $result['ms.website'] : NULL),
 				'country_flag' => ($country ? 'image/flags/' . strtolower($country['iso_code_2']) . '.png' : NULL),
@@ -233,6 +234,7 @@ class ControllerSellerCatalogSeller extends ControllerSellerCatalog {
 		$this->data['seller']['nickname'] = $seller['ms.nickname'];
 		$this->data['seller']['seller_id'] = $seller['seller_id'];
 		$this->data['seller']['description'] = html_entity_decode($seller['ms.description'], ENT_QUOTES, 'UTF-8');
+		$this->data['seller']['address'] = html_entity_decode($seller['ms.address'], ENT_QUOTES, 'UTF-8');
 		$this->data['seller']['href'] = $this->url->link('seller/catalog-seller/products', 'seller_id=' . $seller['seller_id']);
 		
 		
@@ -243,7 +245,7 @@ class ControllerSellerCatalogSeller extends ControllerSellerCatalog {
 		} else {
 			$this->data['seller']['country'] = NULL;
 		}
-		
+				
 		if (!empty($seller['ms.company'])) {
 			$this->data['seller']['company'] = $seller['ms.company'];
 		} else {

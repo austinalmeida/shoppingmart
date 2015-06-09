@@ -51,6 +51,15 @@ $(document).ready(function() {
 
 		$('#currency').submit();
 	});
+	
+	// City
+	$('#city .city-select').on('click', function(e) {
+		e.preventDefault();
+
+		$('#city input[name=\'code\']').attr('value', $(this).attr('name'));
+
+		$('#city').submit();
+	});
 
 	// Language
 	$('#language a').on('click', function(e) {

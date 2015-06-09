@@ -1,5 +1,6 @@
 $(function() {
 	$("#ms-submit-button").click(function() {
+		
 		$('.success').remove();
 		var button = $(this);
 		var id = $(this).attr('id');
@@ -190,6 +191,7 @@ $(function() {
         $.ajax({
             url: 'index.php?route=account/account/country&country_id=' + this.value,
             dataType: 'json',
+			async: false,
             beforeSend: function() {
                $("select[name='seller[country]']").after(' <i class="fa fa-circle-o-notch fa-spin"></i>');
             },
@@ -214,6 +216,43 @@ $(function() {
                 }
 
                 $("select[name='seller[zone]']").html(html);
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    }).trigger('change');
+	
+	
+	$("select[name='seller[zone]']").on('change', function() {
+        $.ajax({
+            url: 'index.php?route=account/account/zone&zone_id=' + this.value,
+            dataType: 'json',
+			async: false,
+            beforeSend: function() {
+               $("select[name='seller[zone]']").after(' <i class="fa fa-circle-o-notch fa-spin"></i>');
+            },
+            complete: function() {
+                $('.fa-spin').remove();
+            },
+            success: function(json) {
+                html = '<option value="">' + msGlobals.citySelectError + '</option>';
+
+                if (json['city']) {
+                    for (i = 0; i < json['city'].length; i++) {
+                        html += '<option value="' + json['city'][i]['city_id'] + '"';
+
+                        if (json['city'][i]['city_id'] == msGlobals.city_id) {
+                            html += ' selected="selected"';
+                        }
+
+                    html += '>' + json['city'][i]['city_name'] + '</option>';
+                }
+                } else {
+                    html += '<option value="0" selected="selected">' + msGlobals.cityNotSelectedError + '</option>';
+                }
+
+                $("select[name='seller[city]']").html(html);
             },
             error: function(xhr, ajaxOptions, thrownError) {
                 alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
