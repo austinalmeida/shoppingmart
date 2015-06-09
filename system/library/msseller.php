@@ -35,6 +35,7 @@ final class MsSeller extends Model {
 				$this->description = $seller_query->row['description'];
 				$this->company = $seller_query->row['company'];
 				$this->country_id = $seller_query->row['country_id'];
+				$this->address = $seller_query->row['address'];
 				$this->avatar = $seller_query->row['avatar'];
 				$this->seller_status = $seller_query->row['seller_status'];
 				$this->paypal = $seller_query->row['paypal'];
@@ -97,6 +98,8 @@ final class MsSeller extends Model {
 					company = '" . $this->db->escape(isset($data['company']) ? $data['company'] : '') . "',
 					country_id = " . (isset($data['country']) ? (int)$data['country'] : 0) . ",
 					zone_id = " . (isset($data['zone']) ? (int)$data['zone'] : 0) . ",
+					city_id = " . (isset($data['city']) ? (int)$data['city'] : 0) . ",
+					address = " . $this->db->escape(isset($data['address']) ? $data['address'] : '') . ",
 					commission_id = " . (isset($commission_id) ? $commission_id : 'NULL') . ",
 					product_validation = " . (isset($data['product_validation']) ? (int)$data['product_validation'] : 0) . ",
 					paypal = '" . $this->db->escape(isset($data['paypal']) ? $data['paypal'] : '') . "',
@@ -162,7 +165,9 @@ final class MsSeller extends Model {
 					company = '" . $this->db->escape($data['company']) . "',
 					nickname = '" . $this->db->escape($data['nickname']) . "',
 					country_id = " . (int)$data['country'] . ",
-					zone_id = " . (int)$data['zone'] . ","
+					zone_id = " . (int)$data['zone'] . ",
+					city_id = " . (int)$data['city'] . ",
+					address = '" . $this->db->escape($data['address']) . "',"
 					. (isset($data['status']) ? "seller_status=  " .  (int)$data['status'] . "," : '')
 					. (isset($data['approved']) ? "seller_approved=  " .  (int)$data['approved'] . "," : '')
 					. "paypal = '" . $this->db->escape($data['paypal']) . "',
@@ -204,6 +209,10 @@ final class MsSeller extends Model {
 
   	public function getDescription() {
   		return $this->description;
+  	}
+  	
+  	public function getAddress() {
+  		return $this->address;
   	}
   	
   	public function getStatus() {
@@ -262,6 +271,8 @@ final class MsSeller extends Model {
 					paypal = '" . $this->db->escape($data['paypal']) . "',
 					seller_status = '" .  (int)$data['status'] .  "',
 					zone_id = " . (int)$data['zone'] . ",
+					city_id = " . (int)$data['city'] . ",
+					address = '" . $this->db->escape($data['address']) . "',
 					seller_approved = '" .  (int)$data['approved'] .  "',
 					product_validation = '" .  (int)$data['product_validation'] .  "',
 					commission_id = " . (!is_null($commission_id) ? (int)$commission_id : 'NULL' ) . ",
@@ -302,7 +313,9 @@ final class MsSeller extends Model {
 						ms.banner as 'banner',
 						ms.country_id as 'ms.country_id',
 						ms.zone_id as 'ms.zone_id',
+						ms.city_id as 'ms.city_id',
 						ms.description as 'ms.description',
+						ms.address as 'ms.address',
 						ms.commission_id as 'ms.commission_id',
 						ms.seller_group as 'ms.seller_group',
 						IFNULL(SUM(mp.number_sold), 0) as 'total_sales',
@@ -386,6 +399,8 @@ final class MsSeller extends Model {
 					ms.banner as 'banner',
 					ms.country_id as 'ms.country_id',
 					ms.zone_id as 'ms.zone_id',
+					ms.city_id as 'ms.city_id',
+					ms.address as 'ms.address',
 					ms.description as 'ms.description',
 					ms.paypal as 'ms.paypal',
 					IFNULL(SUM(mp.number_sold), 0) as 'total_sales'
