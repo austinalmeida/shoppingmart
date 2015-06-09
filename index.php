@@ -208,6 +208,12 @@ $registry->set('affiliate', new Affiliate($registry));
 // Currency
 $registry->set('currency', new Currency($registry));
 
+// City
+$registry->set('city', new City($registry));
+
+// Geo
+$registry->set('geo', new geoPlugin($registry));
+
 // Tax
 $registry->set('tax', new Tax($registry));
 
