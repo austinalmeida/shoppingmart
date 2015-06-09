@@ -353,12 +353,17 @@ $_['ms_catalog_sellerinfo_customer_password_confirm'] = 'Confirm password';
 $_['ms_catalog_sellerinfo_nickname'] = 'Nickname';
 $_['ms_catalog_sellerinfo_keyword'] = 'SEO keyword';
 $_['ms_catalog_sellerinfo_description'] = 'Description';
+$_['ms_catalog_sellerinfo_address'] = 'Address';
 $_['ms_catalog_sellerinfo_company'] = 'Company';
 $_['ms_catalog_sellerinfo_country'] = 'Country';
 $_['ms_catalog_sellerinfo_zone'] = 'Region / State';
 $_['ms_catalog_sellerinfo_zone_select'] = 'Select region/state';
 $_['ms_catalog_sellerinfo_zone_not_selected'] = 'No region/state selected';
 $_['ms_catalog_sellerinfo_zone_note'] = 'Select your region/state from the list.';
+$_['ms_catalog_sellerinfo_city'] = 'City';
+$_['ms_catalog_sellerinfo_city_select'] = 'Select city';
+$_['ms_catalog_sellerinfo_city_not_selected'] = 'No city selected';
+$_['ms_catalog_sellerinfo_city_note'] = 'Select your city from the list.';
 $_['ms_catalog_sellerinfo_sellergroup'] = 'Seller group';
 
 $_['ms_catalog_sellerinfo_country_dont_display'] = 'Do not display country';

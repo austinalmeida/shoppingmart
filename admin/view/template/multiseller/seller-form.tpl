@@ -177,7 +177,23 @@
                     <p class="ms-note"><?php echo $ms_catalog_sellerinfo_zone_note; ?></p>
                 </div>
             </div>
-
+			
+			<div class="form-group">
+                <label class="col-sm-2 control-label"><?php echo $ms_catalog_sellerinfo_city; ?></label>
+                <div class="col-sm-10">
+                    <select class="form-control" name="seller[city]">
+                    </select>
+                    <p class="ms-note"><?php echo $ms_catalog_sellerinfo_city_note; ?></p>
+                </div>
+            </div>
+			
+			<div class="form-group">
+                <label class="col-sm-2 control-label"><?php echo $ms_catalog_sellerinfo_address; ?></label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" name="seller[address]"><?php echo $seller['ms.address']; ?></textarea>
+                </div>
+            </div>
+			
             <div class="form-group">
                 <label class="col-sm-2 control-label"><?php echo $ms_catalog_sellerinfo_paypal; ?></label>
                 <div class="col-sm-10">
@@ -339,9 +355,11 @@
 		});
 
 		$("select[name='seller[country]']").bind('change', function() {
+					
 			$.ajax({
 				url: 'index.php?route=sale/customer/country&token=<?php echo $token; ?>&country_id=' + this.value,
 				dataType: 'json',
+				 async: false,
 				beforeSend: function() {
 					$("select[name='seller[country]']").after('<i class="fa fa-circle-o-notch fa-spin"></i>');
 				},
@@ -366,6 +384,43 @@
 					}
 					
 					$("select[name='seller[zone]']").html(html);
+				},
+				error: function(xhr, ajaxOptions, thrownError) {
+					alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+				}
+			});
+		}).trigger('change');
+		
+		
+		$("select[name='seller[zone]']").bind('change', function() {		
+			$.ajax({
+				url: 'index.php?route=sale/customer/zone&token=<?php echo $token; ?>&zone_id=' + this.value,
+				dataType: 'json',
+				async: false,
+				beforeSend: function() {
+					$("select[name='seller[zone]']").after('<i class="fa fa-circle-o-notch fa-spin"></i>');
+				},
+				complete: function() {
+					$('.fa-spin').remove();
+				},
+				success: function(json) {
+					html = '<option value=""><?php echo $ms_catalog_sellerinfo_city_select; ?></option>';
+					
+					if (json['city']) {
+						for (i = 0; i < json['city'].length; i++) {
+							html += '<option value="' + json['city'][i]['city_id'] + '"';
+							
+							if (json['city'][i]['city_id'] == '<?php echo $seller['ms.city_id']; ?>') {
+								html += ' selected="selected"';
+							}
+			
+							html += '>' + json['city'][i]['city_name'] + '</option>';
+						}
+					} else {
+						html += '<option value="0" selected="selected"><?php echo $ms_catalog_sellerinfo_city_not_selected; ?></option>';
+					}
+					
+					$("select[name='seller[city]']").html(html);
 				},
 				error: function(xhr, ajaxOptions, thrownError) {
 					alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);

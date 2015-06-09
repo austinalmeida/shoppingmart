@@ -12,7 +12,7 @@ class ModelSettingSetting extends Model {
 				$setting_data[$result['key']] = unserialize($result['value']);
 			}
 		}
-
+		
 		return $setting_data;
 	}
 
@@ -34,7 +34,7 @@ class ModelSettingSetting extends Model {
 		$this->db->query("DELETE FROM " . DB_PREFIX . "setting WHERE store_id = '" . (int)$store_id . "' AND `code` = '" . $this->db->escape($code) . "'");
 	}
 
-	public function editSettingValue($code = '', $key = '', $value = '', $store_id = 0) {
+	public function editSettingValue($code = '', $key = '', $value = '', $store_id = 0) {		
 		if (!is_array($value)) {
 			$this->db->query("UPDATE " . DB_PREFIX . "setting SET `value` = '" . $this->db->escape($value) . "' WHERE `code` = '" . $this->db->escape($code) . "' AND `key` = '" . $this->db->escape($key) . "' AND store_id = '" . (int)$store_id . "'");
 		} else {
