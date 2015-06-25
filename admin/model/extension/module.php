@@ -22,7 +22,7 @@ class ModelExtensionModule extends Model {
 			return array();	
 		}
 	}
-	
+		
 	public function getModules() {
 		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "module` ORDER BY `code`");
 

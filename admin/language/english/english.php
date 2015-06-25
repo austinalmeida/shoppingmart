@@ -12,6 +12,7 @@ $_['thousand_point']                = ',';
 // Text
 $_['text_yes']                      = 'Yes';
 $_['text_no']                       = 'No';
+$_['text_vendor_enabled']           = 'Vendor Enabled';
 $_['text_enabled']                  = 'Enabled';
 $_['text_disabled']                 = 'Disabled';
 $_['text_none']                     = ' --- None --- ';
