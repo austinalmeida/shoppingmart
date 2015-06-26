@@ -20,13 +20,13 @@ class ControllerModuleFeatured extends Controller {
 		if (!$setting['limit']) {
 			$setting['limit'] = 4;
 		}
-
+		
 		if (!empty($setting['product'])) {
 			$products = array_slice($setting['product'], 0, (int)$setting['limit']);
 
 			foreach ($products as $product_id) {
 				$product_info = $this->model_catalog_product->getProduct($product_id);
-
+				
 				if ($product_info) {
 					if ($product_info['image']) {
 						$image = $this->model_tool_image->resize($product_info['image'], $setting['width'], $setting['height']);

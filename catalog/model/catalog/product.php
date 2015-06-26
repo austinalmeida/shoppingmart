@@ -72,11 +72,19 @@ class ModelCatalogProduct extends Model {
 				$sql .= " LEFT JOIN " . DB_PREFIX . "product p ON (p2c.product_id = p.product_id)";
 			}
 		} else {
-			$sql .= " FROM " . DB_PREFIX . "product p";
+			$sql .= " FROM " . DB_PREFIX . "product p";			
+		}		
+
+		if (!empty($data['category_id'])) {
+			$sql .= " LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id)";
 		}
-
+		
 		$sql .= " LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
-
+		
+		if (!empty($data['category_id'])) {
+			$sql .= " AND p2c.category_id = '" . (int)$data['category_id'] . "'";
+		}
+		
 		if (!empty($data['filter_category_id'])) {
 			if (!empty($data['filter_sub_category'])) {
 				$sql .= " AND cp.path_id = '" . (int)$data['filter_category_id'] . "'";
@@ -97,6 +105,10 @@ class ModelCatalogProduct extends Model {
 			}
 		}
 		
+		if (!empty($data['category_id'])) {
+		 $sql .= " AND p2c.category_id = '" . (int)$data['category_id'] . "'";
+		 }
+				
 		if (isset($data['p_min']) && ($data['p_max'])) {
 			$sql .= " AND p.price between " . $data['p_min'] . " AND " . $data['p_max'];
 		}
@@ -143,6 +155,8 @@ class ModelCatalogProduct extends Model {
 			$sql .= ")";
 		}
 
+		
+		
 		if (!empty($data['filter_manufacturer_id'])) {
 			$sql .= " AND p.manufacturer_id = '" . (int)$data['filter_manufacturer_id'] . "'";
 		}
@@ -284,7 +298,20 @@ class ModelCatalogProduct extends Model {
 		if (!$product_data) {
 			$product_data = array();
 
-			$query = $this->db->query("SELECT op.product_id, SUM(op.quantity) AS total FROM " . DB_PREFIX . "order_product op LEFT JOIN `" . DB_PREFIX . "order` o ON (op.order_id = o.order_id) LEFT JOIN `" . DB_PREFIX . "product` p ON (op.product_id = p.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) WHERE o.order_status_id > '0' AND p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "' GROUP BY op.product_id ORDER BY total DESC LIMIT " . (int)$limit);
+			$query = $this->db->query("SELECT op.product_id, SUM(op.quantity) AS total 
+					FROM " . DB_PREFIX . "order_product op 
+					LEFT JOIN `" . DB_PREFIX . "order` o 
+						ON (op.order_id = o.order_id) 
+					LEFT JOIN `" . DB_PREFIX . "product` p 
+						ON (op.product_id = p.product_id) 
+					LEFT JOIN " . DB_PREFIX . "product_to_store p2s 
+						ON (p.product_id = p2s.product_id) 
+					WHERE o.order_status_id > '0' 
+					AND p.status = '1' 
+					AND p.date_available <= NOW() 
+					AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "' 
+					GROUP BY op.product_id 
+					ORDER BY total DESC LIMIT " . (int)$limit);
 
 			foreach ($query->rows as $result) {
 				$product_data[$result['product_id']] = $this->getProduct($result['product_id']);
@@ -293,6 +320,37 @@ class ModelCatalogProduct extends Model {
 			$this->cache->set('product.bestseller.' . (int)$this->config->get('config_language_id') . '.' . (int)$this->config->get('config_store_id') . '.' . $this->config->get('config_customer_group_id') . '.' . (int)$limit, $product_data);
 		}
 
+		return $product_data;
+	}
+	
+	public function getBestSellerProductsByCategory($category_id, $limit) {
+		$product_data = $this->cache->get('product.bestseller.' . (int)$this->config->get('config_language_id') . '.' . (int)$this->config->get('config_store_id') . '.' . $this->config->get('config_customer_group_id') . '.' . (int)$limit);
+	
+		if (!$product_data) {
+			$product_data = array();
+	
+			$query = $this->db->query("SELECT op.product_id, SUM(op.quantity) AS total
+					FROM " . DB_PREFIX . "order_product op
+					LEFT JOIN `" . DB_PREFIX . "order` o
+						ON (op.order_id = o.order_id)
+					LEFT JOIN `" . DB_PREFIX . "product` p
+						ON (op.product_id = p.product_id)
+					LEFT JOIN " . DB_PREFIX . "product_to_store p2s
+						ON (p.product_id = p2s.product_id)
+					WHERE o.order_status_id > '0'
+					AND p.status = '1'
+					AND p.date_available <= NOW()
+					AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "'
+					GROUP BY op.product_id
+					ORDER BY total DESC LIMIT " . (int)$limit);
+	
+			foreach ($query->rows as $result) {
+				$product_data[$result['product_id']] = $this->getProduct($result['product_id']);
+			}
+	
+			$this->cache->set('product.bestseller.' . (int)$this->config->get('config_language_id') . '.' . (int)$this->config->get('config_store_id') . '.' . $this->config->get('config_customer_group_id') . '.' . (int)$limit, $product_data);
+		}
+	
 		return $product_data;
 	}
 

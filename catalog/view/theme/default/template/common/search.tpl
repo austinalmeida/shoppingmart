@@ -1,6 +1,13 @@
-<div id="search" class="input-group">
-  <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_search; ?>" class="form-control input-lg" />
-  <span class="input-group-btn">
-    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
-  </span>
-</div>
+<form class="form-inline" id="search">
+	  <div class="form-group form-category">
+		<select class="select-category">
+			<option value="2">All Categories</option>
+			<option value="1">Men</option>
+			<option value="2">Women</option>
+		</select>
+	  </div>
+	  <div class="form-group input-serach">
+		<input type="text" name="search" value="<?php echo $search; ?>" placeholder="Keyword here...">
+	  </div>
+	  <button type="submit" class="pull-right btn-search"></button>
+</form>

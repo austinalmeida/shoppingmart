@@ -54,13 +54,13 @@ class ControllerCommonContentTop extends Controller {
 
 			if (isset($part[1])) {
 				$setting_info = $this->model_extension_module->getModule($part[1]);
-
+				
 				if ($setting_info && $setting_info['status']) {
 					$data['modules'][] = $this->load->controller('module/' . $part[0], $setting_info);
 				}
 			}
 		}
-
+		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/content_top.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/common/content_top.tpl', $data);
 		} else {

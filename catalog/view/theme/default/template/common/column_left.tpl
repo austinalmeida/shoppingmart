@@ -1,7 +1,8 @@
 <?php if ($modules) { ?>
-<column id="column-left" class="col-sm-3 hidden-xs">
+<div class="column col-xs-12 col-sm-3 hidden-xs" id="left_column">
   <?php foreach ($modules as $module) { ?>
   <?php echo $module; ?>
   <?php } ?>
-</column>
+</div>
+		
 <?php } ?>

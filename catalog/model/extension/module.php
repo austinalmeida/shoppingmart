@@ -8,5 +8,15 @@ class ModelExtensionModule extends Model {
 		} else {
 			return array();	
 		}
+	}
+	
+	public function getModuleByCode($code) {
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "module WHERE code = '" . $code . "'");
+	
+		if ($query->row) {
+			return unserialize($query->row['setting']);
+		} else {
+			return array();
+		}
 	}		
 }
