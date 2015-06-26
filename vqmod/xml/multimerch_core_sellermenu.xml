@@ -29,11 +29,11 @@
 	<file name="catalog/view/theme/&themeFolder;/template/common/header.tpl">
 		<operation error="log">
 			<search position="after"><![CDATA[
-				<li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
+				<div id="sellers-info-top" class="user-info pull-right seller"><div class="dropdown">
 			]]></search>
 			<add><![CDATA[
-                <li class="dropdown"><a href="<?php echo $this->url->link('seller/account-dashboard', '', 'SSL'); ?>" title="<?php echo $ms_account_seller_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $ms_account_seller_account; ?></span> <span class="caret"></span></a>
-                  <ul class="dropdown-menu dropdown-menu-right">
+				<a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="<?php echo $this->url->link('seller/account-dashboard', '', 'SSL'); ?>"><span><?php echo $ms_account_seller_account; ?></span></a>
+				<ul class="dropdown-menu mega_dropdown" role="menu">				
                     <?php if ($ms_seller_created) { ?>
                         <?php if ($this->MsLoader->MsSeller->getStatus($this->customer->getId()) == MsSeller::STATUS_ACTIVE) { ?>
                             <li><a href="<?php echo $this->url->link('seller/account-dashboard', '', 'SSL'); ?>"><?php echo $ms_account_dashboard; ?></a></li>
