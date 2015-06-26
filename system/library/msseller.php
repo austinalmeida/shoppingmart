@@ -99,7 +99,7 @@ final class MsSeller extends Model {
 					country_id = " . (isset($data['country']) ? (int)$data['country'] : 0) . ",
 					zone_id = " . (isset($data['zone']) ? (int)$data['zone'] : 0) . ",
 					city_id = " . (isset($data['city']) ? (int)$data['city'] : 0) . ",
-					address = " . $this->db->escape(isset($data['address']) ? $data['address'] : '') . ",
+					address = '" . $this->db->escape(isset($data['address']) ? $data['address'] : '') . "',
 					commission_id = " . (isset($commission_id) ? $commission_id : 'NULL') . ",
 					product_validation = " . (isset($data['product_validation']) ? (int)$data['product_validation'] : 0) . ",
 					paypal = '" . $this->db->escape(isset($data['paypal']) ? $data['paypal'] : '') . "',
